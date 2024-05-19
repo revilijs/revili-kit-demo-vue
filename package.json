@@ -1,5 +1,5 @@
 {
-  "name": "@revili/revili-kit-default",
+  "name": "revili-kit-demo-vue",
   "version": "0.0.1",
   "description": "",
   "main": "dist/node/index.js",
