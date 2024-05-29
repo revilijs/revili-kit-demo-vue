@@ -1,4 +1,5 @@
 import {createApp, h} from 'vue'
+import naive from 'naive-ui'
 import App from './App.vue'
 
 const createVueApp = async () => {
@@ -8,6 +9,7 @@ const createVueApp = async () => {
     },
   })
 
+  app.use(naive)
   app.mount('#app')
 }
 
